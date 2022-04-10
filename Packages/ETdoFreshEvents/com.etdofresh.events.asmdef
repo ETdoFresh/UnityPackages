@@ -1,0 +1,15 @@
+{
+    "name": "com.etdofresh.events",
+    "references": [
+        "GUID:11d53659c3baf9a46b6c2ad519465e84"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
