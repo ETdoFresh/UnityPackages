@@ -6,25 +6,25 @@ namespace ETdoFreshEvents.Sample
 {
     public class SampleEventManager : MonoBehaviour
     {
-        [SerializeField] private SampleActionEvent buttonClick;
+        [SerializeField] private SampleEvent buttonClick;
         [SerializeField] private Button button;
         [SerializeField] private Text text;
         private int _clickCount;
 
         private void OnValidate()
         {
-            if (!buttonClick) buttonClick = SampleActionEvent.FindEventInEditor("OnButtonClick");
+            if (!buttonClick) buttonClick = AssetDatabaseUtil.FindObjectOfType<SampleEvent>("OnButtonClick");
         }
 
         private void Awake()
         {
-            button.onClick.AddPersistentListener(buttonClick.Raise);
+            button.onClick.AddPersistentListener(buttonClick.Invoke);
             buttonClick.AddListener(OnButtonClick);
         }
 
         private void OnDestroy()
         {
-            button.onClick.RemovePersistentListener(buttonClick.Raise);
+            button.onClick.RemovePersistentListener(buttonClick.Invoke);
             buttonClick.RemoveListener(OnButtonClick);
         }
 

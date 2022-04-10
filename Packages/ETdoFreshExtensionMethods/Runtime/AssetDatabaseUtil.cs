@@ -5,14 +5,14 @@ namespace ETdoFreshExtensionMethods
 {
     public static class AssetDatabaseUtil
     {
-        public static T FindObjectOfType<T>(string eventName) where T : Object
+        public static T FindObjectOfType<T>(string name) where T : Object
         {
 #if UNITY_EDITOR
             return UnityEditor.AssetDatabase
-                .FindAssets($"t:{typeof(T).Name}")
+                .FindAssets($"t:{typeof(T).Name} {name}")
                 .Select(UnityEditor.AssetDatabase.GUIDToAssetPath)
                 .Select(UnityEditor.AssetDatabase.LoadAssetAtPath<T>)
-                .FirstOrDefault(x => x.name == eventName);
+                .FirstOrDefault();
 #else
         return default;
 #endif

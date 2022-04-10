@@ -1,17 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using ETdoFreshExtensionMethods;
 using UnityEngine;
 
 namespace ETdoFreshEvents
 {
-    [CreateAssetMenu(menuName = "Events/ActionEvent")]
-    public class ActionEvent : ScriptableObject
+    [CreateAssetMenu(menuName = "Events/Event")]
+    public class Event : ScriptableObject
     {
         private event Action Action = delegate { };
         public List<EventData> eventData = new List<EventData>();
 
-        public void Raise()
+        public void Invoke()
         {
             Action();
         }
@@ -28,17 +27,14 @@ namespace ETdoFreshEvents
             if (foundEvent != null) eventData.Remove(foundEvent);
             Action -= action;
         }
-
-        public static ActionEvent FindEventInEditor(string eventName) =>
-            AssetDatabaseUtil.FindObjectOfType<ActionEvent>(eventName);
     }
 
-    public abstract class ActionEvent<T> : ScriptableObject
+    public abstract class Event<T> : ScriptableObject
     {
         private event Action<T> Action = delegate { };
         public List<EventData<T>> eventData = new List<EventData<T>>();
 
-        public void Raise(T data)
+        public void Invoke(T data)
         {
             Action(data);
         }
