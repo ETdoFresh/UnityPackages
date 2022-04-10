@@ -1,0 +1,15 @@
+{
+  "name": "com.etdofresh.editortools",
+  "version": "0.0.1",
+  "displayName": "ETdoFresh Editor Tools",
+  "description": "A library of Unity Editor Tools that I often use.",
+  "type": "library",
+  "author": {
+    "name": "ETdoFresh",
+    "email": "ETdoFresh@gmail.com",
+    "url": "https://www.etdofresh.com"
+  },
+  "publishConfig": {
+    "registry": "http://192.168.254.108:4873"
+  }
+}

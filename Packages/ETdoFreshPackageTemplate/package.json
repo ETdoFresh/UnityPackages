@@ -1,0 +1,15 @@
+{
+  "name": "com.etdofresh.template",
+  "version": "0.0.2",
+  "displayName": "ETdoFresh Template",
+  "description": "A template for creating package libraries",
+  "type": "library",
+  "author": {
+    "name": "ETdoFresh",
+    "email": "ETdoFresh@gmail.com",
+    "url": "https://www.etdofresh.com"
+  },
+  "publishConfig": {
+    "registry": "http://192.168.254.108:4873"
+  }
+}

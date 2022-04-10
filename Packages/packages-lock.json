@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.etdofresh.editortools": {
+      "version": "file:ETdoFreshEditorTools",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.etdofresh.events": {
       "version": "file:ETdoFreshEvents",
       "depth": 0,
@@ -10,6 +16,18 @@
     },
     "com.etdofresh.extensionmethods": {
       "version": "file:ETdoFreshExtensionMethods",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.etdofresh.publishnpm": {
+      "version": "file:ETdoFreshPublishNPM",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.etdofresh.template": {
+      "version": "file:ETdoFreshPackageTemplate",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}

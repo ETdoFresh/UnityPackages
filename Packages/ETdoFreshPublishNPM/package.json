@@ -1,0 +1,15 @@
+{
+  "name": "com.etdofresh.publishnpm",
+  "version": "0.0.0",
+  "displayName": "ETdoFresh Publish NPM",
+  "description": "A Unity Editor Library that publishes NPM packages and increments version. [Not really useful outside of UnityPackages project]",
+  "type": "library",
+  "author": {
+    "name": "ETdoFresh",
+    "email": "ETdoFresh@gmail.com",
+    "url": "https://www.etdofresh.com"
+  },
+  "publishConfig": {
+    "registry": "http://192.168.254.108:4873"
+  }
+}
