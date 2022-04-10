@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3436029fad77cff45825992d58d969ba, type: 3}
+  m_Name: CreateNewPackage
+  m_EditorClassIdentifier: 
+  directoryName: ETdoFreshTemplate2
+  name: com.etdofresh.template2
+  TemplateAssemblyDefinitionAsset: {fileID: 5897886265953266890, guid: 4fd49be02eabd5548ac024165b2c8231,
+    type: 3}
+  TemplatePackageJson: {fileID: 8385607101436470782, guid: 009632a3135d04c41956e0da15d12571,
+    type: 3}
+  TemplateReadme: {fileID: 4900000, guid: 10f47a3d7100af44e8b25d004cf75612, type: 3}

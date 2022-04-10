@@ -13,4 +13,35 @@ MonoBehaviour:
   m_Name: PublishNPMMenu
   m_EditorClassIdentifier: 
   registryPath: http://192.168.254.108:4873/
-  packages: []
+  packages:
+  - name: com.etdofresh.editortools
+    version: 0.0.1
+    displayName: ETdoFresh Editor Tools
+    description: A library of Unity Editor Tools that I often use.
+    path: C:/Users/etgarcia/Desktop/UnityProjects/UnityPackages/Assets/../packages\ETdoFreshEditorTools
+    packageJsonPath: C:/Users/etgarcia/Desktop/UnityProjects/UnityPackages/Assets/../packages\ETdoFreshEditorTools/package.json
+  - name: com.etdofresh.events
+    version: 0.0.0
+    displayName: ETdoFresh Events
+    description: An event library that serializes event listeners in UNITY_EDITOR.
+    path: C:/Users/etgarcia/Desktop/UnityProjects/UnityPackages/Assets/../packages\ETdoFreshEvents
+    packageJsonPath: C:/Users/etgarcia/Desktop/UnityProjects/UnityPackages/Assets/../packages\ETdoFreshEvents/package.json
+  - name: com.etdofresh.extensionmethods
+    version: 0.0.0
+    displayName: ETdoFresh Extension Methods
+    description: A library that provides common extension methods for Unity.
+    path: C:/Users/etgarcia/Desktop/UnityProjects/UnityPackages/Assets/../packages\ETdoFreshExtensionMethods
+    packageJsonPath: C:/Users/etgarcia/Desktop/UnityProjects/UnityPackages/Assets/../packages\ETdoFreshExtensionMethods/package.json
+  - name: com.etdofresh.template
+    version: 0.0.2
+    displayName: ETdoFresh Template
+    description: A template for creating package libraries
+    path: C:/Users/etgarcia/Desktop/UnityProjects/UnityPackages/Assets/../packages\ETdoFreshPackageTemplate
+    packageJsonPath: C:/Users/etgarcia/Desktop/UnityProjects/UnityPackages/Assets/../packages\ETdoFreshPackageTemplate/package.json
+  - name: com.etdofresh.publishnpm
+    version: 0.0.0
+    displayName: ETdoFresh Publish NPM
+    description: A Unity Editor Library that publishes NPM packages and increments
+      version. [Not really useful outside of UnityPackages project]
+    path: C:/Users/etgarcia/Desktop/UnityProjects/UnityPackages/Assets/../packages\ETdoFreshPublishNPM
+    packageJsonPath: C:/Users/etgarcia/Desktop/UnityProjects/UnityPackages/Assets/../packages\ETdoFreshPublishNPM/package.json

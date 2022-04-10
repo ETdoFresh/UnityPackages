@@ -1,6 +1,6 @@
 {
   "name": "com.etdofresh.template",
-  "version": "0.0.2",
+  "version": "0.0.0",
   "displayName": "ETdoFresh Template",
   "description": "A template for creating package libraries",
   "type": "library",
