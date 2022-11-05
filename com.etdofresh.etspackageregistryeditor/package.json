@@ -1,0 +1,14 @@
+﻿{
+  "name": "com.etdofresh.etspackageregistryeditor",
+  "version": "0.0.1",
+  "displayName": "ETs Package Registry Editor",
+  "description": "A package registry editor for ETs Package Registry",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "author": {
+    "name": "ETdoFresh",
+    "email": "ETdoFresh@gmail.com",
+    "url": "https://www.etdofresh.com"
+  }
+}
