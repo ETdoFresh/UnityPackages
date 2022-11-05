@@ -1,0 +1,14 @@
+﻿{
+  "name": "com.etdofresh.collapseexpandallcontext",
+  "version": "0.0.1",
+  "displayName": "Collapse/Expand All Components Context Menu",
+  "description": "Adds a context menu to collapse/expand all components in the inspector.",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "author": {
+    "name": "ETdoFresh",
+    "email": "ETdoFresh@gmail.com",
+    "url": "https://www.etdofresh.com"
+  }
+}
