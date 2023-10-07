@@ -13,7 +13,7 @@ namespace ETdoFreshPublishNPM.Editor
         [SerializeField] public TextAsset TemplateReadme;
         [Header("Package Information")]
         [SerializeField] public string directoryName = "ETdoFreshTemplate";
-        [SerializeField] public string name = "com.etdofresh.template";
+        [SerializeField] public string name = "com.etdofresh.unitypackages.template";
 
         public static void CreatePackage()
         {
@@ -63,11 +63,11 @@ namespace ETdoFreshPublishNPM.Editor
             File.Copy(templateReadmePath, destinationReadmePath);
 
             FileReplaceText(destinationAsmDefPath,
-                "\"name\": \"com.etdofresh.template\",",
+                "\"name\": \"com.etdofresh.unitypackages.template\",",
                 $"\"name\": \"{instance.name}\",");
 
             FileReplaceText(destinationPackageJsonPath,
-                "\"name\": \"com.etdofresh.template\",",
+                "\"name\": \"com.etdofresh.unitypackages.template\",",
                 $"\"name\": \"{instance.name}\",");
 
             FileReplaceText(destinationPackageJsonPath,

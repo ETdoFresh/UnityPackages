@@ -1,5 +1,6 @@
 {
-    "name": "com.etdofresh.template",
+    "name": "com.etdofresh.unitypackages.template",
+    "rootNamespace": "",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

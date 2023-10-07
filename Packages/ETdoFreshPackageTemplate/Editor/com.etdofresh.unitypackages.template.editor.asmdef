@@ -1,5 +1,6 @@
 {
-    "name": "com.etdofresh.template.editor",
+    "name": "com.etdofresh.unitypackages.template.editor",
+    "rootNamespace": "",
     "references": [],
     "includePlatforms": [
         "Editor"

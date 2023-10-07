@@ -6,12 +6,6 @@
       "source": "embedded",
       "dependencies": {}
     },
-    "com.etdofresh.template": {
-      "version": "file:ETdoFreshPackageTemplate",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
     "com.etdofresh.unitypackages.editortools": {
       "version": "file:ETdoFreshEditorTools",
       "depth": 0,
@@ -28,6 +22,12 @@
     },
     "com.etdofresh.unitypackages.extensionmethods": {
       "version": "file:ETdoFreshExtensionMethods",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.etdofresh.unitypackages.template": {
+      "version": "file:ETdoFreshPackageTemplate",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
