@@ -12,6 +12,12 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "com.etdofresh.unitypackages.eventbus": {
+      "version": "file:ETdoFresh EventBus",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.etdofresh.unitypackages.events": {
       "version": "file:ETdoFreshEvents",
       "depth": 0,

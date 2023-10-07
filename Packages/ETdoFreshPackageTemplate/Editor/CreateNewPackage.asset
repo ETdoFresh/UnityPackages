@@ -17,5 +17,5 @@ MonoBehaviour:
   TemplatePackageJson: {fileID: 8385607101436470782, guid: 009632a3135d04c41956e0da15d12571,
     type: 3}
   TemplateReadme: {fileID: 4900000, guid: 10f47a3d7100af44e8b25d004cf75612, type: 3}
-  directoryName: ETdoFreshTemplate2
-  name: com.etdofresh.unitypackages.template2
+  directoryName: ETdoFresh EventBus
+  name: com.etdofresh.unitypackages.eventbus
