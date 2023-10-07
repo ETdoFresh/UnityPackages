@@ -1,5 +1,6 @@
 {
-    "name": "com.etdofresh.extensionmethods",
+    "name": "com.etdofresh.unitypackages.extensionmethods",
+    "rootNamespace": "",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

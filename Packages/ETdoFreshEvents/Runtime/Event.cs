@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ETdoFreshEvents
+namespace ETdoFresh.UnityPackages.Events
 {
     [CreateAssetMenu(menuName = "Events/Event")]
     public class Event : ScriptableObject

@@ -1,8 +1,8 @@
-﻿using ETdoFreshExtensionMethods;
+﻿using ETdoFresh.UnityPackages.ExtensionMethods;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace ETdoFreshEvents.Sample
+namespace ETdoFresh.UnityPackages.Events.Sample
 {
     public class SampleEventManager : MonoBehaviour
     {

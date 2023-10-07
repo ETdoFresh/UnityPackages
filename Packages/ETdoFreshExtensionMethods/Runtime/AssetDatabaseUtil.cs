@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using UnityEngine;
 
-namespace ETdoFreshExtensionMethods
+namespace ETdoFresh.UnityPackages.ExtensionMethods
 {
     public static class AssetDatabaseUtil
     {

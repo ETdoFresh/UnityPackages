@@ -1,8 +1,8 @@
 ﻿using System;
-using ETdoFreshExtensionMethods;
+using ETdoFresh.UnityPackages.ExtensionMethods;
 using Object = UnityEngine.Object;
 
-namespace ETdoFreshEvents
+namespace ETdoFresh.UnityPackages.Events
 {
     [Serializable]
     public class EventData

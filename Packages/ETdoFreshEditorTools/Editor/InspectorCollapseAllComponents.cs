@@ -2,7 +2,7 @@
 using UnityEditorInternal;
 using UnityEngine;
 
-namespace ETdoFreshEditorTools.Editor
+namespace ETdoFresh.UnityPackages.EditorTools.Editor
 {
     public static class InspectorCollapseAllComponents
     {

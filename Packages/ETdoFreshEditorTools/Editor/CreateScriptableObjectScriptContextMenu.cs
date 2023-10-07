@@ -3,7 +3,7 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-namespace ETdoFreshEditorTools.Editor
+namespace ETdoFresh.UnityPackages.EditorTools.Editor
 {
     public static class CreateScriptableObjectScriptContextMenu
     {

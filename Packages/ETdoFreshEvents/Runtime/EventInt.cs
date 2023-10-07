@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ETdoFreshEvents
+namespace ETdoFresh.UnityPackages.Events
 {
     [CreateAssetMenu(menuName = "Events/EventInt")]
     public class EventInt : Event<int> { }

@@ -1,18 +1,15 @@
 {
-  "name": "com.etdofresh.events",
-  "version": "0.0.0",
+  "name": "com.etdofresh.unitypackages.events",
+  "version": "0.0.1",
   "displayName": "ETdoFresh Events",
-  "description": "An event library that serializes event listeners in UNITY_EDITOR.",
+  "description": "An event library that serializes event listeners in UNITY_EDITOR.\n\nMake sure to also include dependencies:\n* <i>https://github.com/ETdoFresh/UnityPackages.ExtensionMethods.git#v0.0.1</i>",
   "type": "library",
   "author": {
     "name": "ETdoFresh",
     "email": "ETdoFresh@gmail.com",
     "url": "https://www.etdofresh.com"
   },
-  "publishConfig": {
-    "registry": "http://192.168.254.108:4873"
-  },
   "dependencies": {
-    "com.etdofresh.extensionmethods": "0.0.0"
+    "com.etdofresh.unitypackages.extensionmethods": "0.0.1"
   }
 }

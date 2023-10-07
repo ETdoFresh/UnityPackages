@@ -1,7 +1,8 @@
 {
-    "name": "com.etdofresh.events",
+    "name": "com.etdofresh.unitypackages.events",
+    "rootNamespace": "",
     "references": [
-        "GUID:11d53659c3baf9a46b6c2ad519465e84"
+        "com.etdofresh.unitypackages.extensionmethods"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

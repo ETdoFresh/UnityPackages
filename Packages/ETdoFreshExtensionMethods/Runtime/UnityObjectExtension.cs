@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ETdoFreshExtensionMethods
+namespace ETdoFresh.UnityPackages.ExtensionMethods
 {
     public static class UnityObjectExtension
     {

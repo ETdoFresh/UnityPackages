@@ -1,6 +1,6 @@
 {
-  "name": "com.etdofresh.extensionmethods",
-  "version": "0.0.0",
+  "name": "com.etdofresh.unitypackages.extensionmethods",
+  "version": "0.0.1",
   "displayName": "ETdoFresh Extension Methods",
   "description": "A library that provides common extension methods for Unity.",
   "type": "library",
@@ -8,8 +8,5 @@
     "name": "ETdoFresh",
     "email": "ETdoFresh@gmail.com",
     "url": "https://www.etdofresh.com"
-  },
-  "publishConfig": {
-    "registry": "http://192.168.254.108:4873"
   }
 }

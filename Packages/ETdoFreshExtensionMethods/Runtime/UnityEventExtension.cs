@@ -1,6 +1,6 @@
 ﻿using UnityEngine.Events;
 
-namespace ETdoFreshExtensionMethods
+namespace ETdoFresh.UnityPackages.ExtensionMethods
 {
     public static class UnityEventExtension
     {
